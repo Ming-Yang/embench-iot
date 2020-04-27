@@ -40,5 +40,5 @@ void __attribute__ ((noinline)) __attribute__ ((externally_visible))
 stop_trigger ()
 {
   clock_gettime(CLOCK_PROCESS_CPUTIME_ID, &time2);
-  printf("time:%ld\n", diff(time1, time2));
+  fprintf(stderr, "time %ldns\n", diff(time1, time2));
 }
