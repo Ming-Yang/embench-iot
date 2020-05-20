@@ -1,0 +1,3 @@
+#!/bin/bash
+python3 ../build_all.py --arch=aarch64 --chip=cortex-A55 --board=VIM3L --clean
+python3 ../build_all.py --arch=aarch64 --chip=cortex-A55 --board=VIM3L
